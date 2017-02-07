@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+
+}
+header{
+    width: 100%;
+
+}
+ul{
+    display: flex;
+    margin-top: 1em;
+    background-color: MediumTurquoise;
+    justify-content:space-between;
+    align-items:center;
+    height: 300px;}
+
+li{
+    margin: 1em;
+    padding: 0.5em;
+    background-color: Teal;
+    color: MediumTurquoise;
+}
+main{
+    background:teal;
+    width:75%;
+}
+
+aside{
+    background: teal;
+    width: 20%;
+}
